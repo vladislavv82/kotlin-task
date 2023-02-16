@@ -1,6 +1,7 @@
 import java.util.*
 import kotlin.math.*
 
+const val e = Math.E
 fun main() {
     val sc = Scanner(System.`in`)
     print("Число x начальное = ")
@@ -9,7 +10,7 @@ fun main() {
     val h = sc.nextDouble()
 
     var f = 0.0
-    val e = 2.718 //???
+//    val e = 2.718 //???
 
     if (x <= 0) {
         while (e.pow(0.2) < (5 * abs(x))) {
@@ -25,6 +26,6 @@ fun main() {
 }
 
 fun calculateFunction(x: Double): Double { //логика тут
-    val e = 2.718
+//    val e = 2.718
     return (e.pow(0.2 * x) + sqrt(e.pow(0.2 * x)).pow(3) + sqrt(e.pow(0.2 * x)).pow(5))
 }

@@ -2,7 +2,7 @@ import java.util.*
 import kotlin.math.*
 
 fun main() {
-    println("Программа для вычисления выражения a(n) = (a(n-1) + |sin(n)|) / (n - sin(n)^2)")
+    println("Программа для вычисления выражения")
     val sc = Scanner(System.`in`)
     print("Введите число b: ")
     val b = sc.nextInt()
